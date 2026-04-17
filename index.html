@@ -1,502 +1,409 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Ganpat Lakhara - Mobile App Developer, Web Developer</title>
-    <META name="keywords"
-        content="ganpat lakhara, ganpat, lakhara, ganpatlakhara, lakhara ganpat, lakharaganpat, mobile app developer, web developer">
-    <META name="description" content="Official Website of Ganpat Lakhara. Mobile Application Developer, Web Developer.">
-    <link rel="shortcut icon" href="images/profile.jpg" type="image/jpeg" />
-    <link rel="canonical" href="#" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ganpat Lakhara - Mobile App Developer, Web Developer</title>
+    <meta name="keywords"
+        content="ganpat lakhara, ganpat, lakhara, ganpatlakhara, lakhara ganpat, lakharaganpat, mobile app developer, web developer">
+    <meta name="description" content="Official Website of Ganpat Lakhara. Mobile Application Developer, Web Developer.">
+    <link rel="shortcut icon" href="images/profile.jpg" type="image/jpeg" />
+    <link rel="canonical" href="#" />
 
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Modern Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="js/modernizr.js"></script>
+
+    <!-- Custom Style -->
     <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <meta property="og:title" content="Ganpat Lakhara - Mobile App Developer, Web Developer">
     <meta property="og:image" content="https://github.com/ganpats/ganpats.github.io/raw/master/images/profile.jpg">
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
-    <nav id="myNavbar" class="navbar navbar-expand-lg navbar-dark sticky-top">
-        <a class="navbar-brand" href="index.html">Ganpat Lakhara</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="nav navbar-nav ml-auto">
-                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-                    <a class="nav-link" href="#home">Home</a>
-                </li>
-                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-                    <a class="nav-link" href="#aboutMe">About Me</a>
-                </li>
-                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-                    <a class="nav-link" href="#experience">Experience</a>
-                </li>
-                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-                    <a class="nav-link" href="#skills">Skills</a>
-                </li>
-                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-                    <a class="nav-link" href="#myWork">My Work</a>
-                </li>
+<body>
+    <nav class="glass-nav">
+        <div class="nav-container">
+            <a href="#" class="brand">Ganpat Lakhara</a>
+            <ul class="nav-links">
+                <li><a href="#aboutMe">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#myWork">Work</a></li>
             </ul>
         </div>
     </nav>
 
-    <!-- Home Section START -->
-    <section id="home" style="margin-top: 0%; padding-top: 60px;">
-        <img id="tilt" class="rounded-circle d-block mx-auto m-3" src="images/profile.jpg" height="256" width="256"
-            data-aos="zoom-in-up">
-        <div class="h2 mt-2 text-center" style="color: #FFFFFF">Ganpat Lakhara</div>
+    <main class="container">
+        <!-- Hero Section -->
+        <section id="home" class="hero section-spacing">
+            <div class="hero-content glass-panel">
+                <img class="profile-img" src="images/profile.jpg" alt="Ganpat Lakhara">
+                <h1 class="hero-title">Ganpat Lakhara</h1>
+                <h2 class="hero-subtitle">Mobile App Developer, Web Developer</h2>
 
-        <div class="cd-intro m-3 text-center">
-            <h4 class="cd-headline slide">
-                <span class="cd-words-wrapper" style="width:200px !important">
-                    <b class="is-visible">❤️ iOS</b>
-                    <b>✈️ Swift</b>
-                    <b>😍 NodeJS</b>
-                    <b>🔥 Firebase</b>
-                    <b>👨🏻‍💻 Enthusiast</b>
-                    <b>✍️ Technical</b>
-                    <b>🇮🇳 Indian</b>
-                </span>
-            </h4>
-        </div>
+                <div class="hero-tags">
+                    <span class="tag">❤️ iOS</span>
+                    <span class="tag">✈️ Swift</span>
+                    <span class="tag">😍 NodeJS</span>
+                    <span class="tag">🔥 Firebase</span>
+                    <span class="tag">👨🏻‍💻 Enthusiast</span>
+                    <span class="tag">✍️ Technical</span>
+                    <span class="tag">🇮🇳 Indian</span>
+                </div>
 
-        <div class="d-flex align-items-center">
-            <a href="profile.pdf" class="btn btn-outline-light d-block mx-auto m-4" target="_blank" role="button"><i
-                    class="fas fa-file mr-2"></i>
-                View CV</a>
-        </div>
+                <a href="profile.pdf" class="btn btn-primary" target="_blank">
+                    <i class="fas fa-file"></i> View CV
+                </a>
 
-        <div class="container-fluid d-block mx-auto text-center" style="width:fit-content;" data-aos="fade-up"
-            data-aos-anchor-placement="top-bottom">
-            <a href="mailto: ganpatlakhara@gmail.com" href="#" class="far fa-envelope rounded-circle"></a>
-            <a href="https://www.linkedin.com/in/ganpatbhai-lakhara-54678659" target="_blank"
-                class="fab fa-linkedin-in rounded-circle"></a>
-            <a href="https://github.com/ganpats" target="_blank" class="fab fa-github-alt rounded-circle"></a>
-            <a href="https://play.google.com/store/apps/developer?id=OmShanti+Infotech&hl=en" target="_blank"
-                class="fab fa-google-play rounded-circle"></a>
-            <a href="https://understandios.blogspot.com" target="_blank" class="fas fab fa-blog rounded-circle"></a>
-        </div>
-    </section>
-    <!-- Home Section END -->
-
-    <!-- About Section START -->
-    <section id="aboutMe">
-        <div class="justify-content-center">
-            <div class="h1 text-center" data-aos="zoom-in-up"><i class="fas fa-user-alt mr-2"></i><b>About</b> Me
-            </div>
-            <div class="d-flex align-items-center">
-                <div class="p text-monospace d-block mx-auto p-4 larger align-self-center" data-aos="zoom-in-down">
-                    With a strong foundation in both front-end and back-end development, <br>
-                    I am a skilled full-stack developer proficient in crafting innovative and user-centric
-                    applications.<br>
-                    My expertise spans across various platforms and technologies,<br>
-                    enabling me to deliver robust and scalable solutions.
+                <div class="social-links mt-3">
+                    <a href="mailto:ganpatlakhara@gmail.com" class="social-icon" title="Email"><i
+                            class="far fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/ganpatbhai-lakhara-54678659" target="_blank"
+                        class="social-icon" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/ganpats" target="_blank" class="social-icon" title="GitHub"><i
+                            class="fab fa-github-alt"></i></a>
+                    <a href="https://play.google.com/store/apps/developer?id=OmShanti+Infotech&hl=en" target="_blank"
+                        class="social-icon" title="Google Play"><i class="fab fa-google-play"></i></a>
+                    <a href="https://understandios.blogspot.com" target="_blank" class="social-icon" title="Blog"><i
+                            class="fas fa-blog"></i></a>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- About Section END -->
+        </section>
 
-    <!-- Experience Section START -->
-    <section id="experience">
-        <div class="h1 text-center" data-aos="zoom-in-up"><i class="fas fa-briefcase"></i> My <b>Experience</b></div>
-        <div class="d-flex align-items-center">
-            <ul class="list-group p-3 mx-auto" style="width: fit-content;" data-aos="zoom-in-down">
-                <li class="list-group-item">
-                    <div class="row">
-                        <div class="col-auto">
-                            <img class="img-responsive rounded m-2"
-                                style="background-color: #ffffff;object-fit: contain;"
-                                src="images/Websites/ArenaTwo.png" width="64" height="64" />
-                        </div>
-                        <div class="col-auto">
-                            <div class="small" style="color: #b7b6bb">08/2025 - 02/2026</div>
-                            <div class="large font-weight-bold font-italic mt-2" style="color: #FFFFFF;">Full Stack
-                                Developer</div>
-                            <div class="large mt-2" style="color: #FFFFFF;"><a class="text-decoration-none"
-                                    href="https://arenatwo.com" target="_blank">Arena Two</a></div>
-                            <div class="large mt-2" style="color: #FFFFFF;"><a class="text-decoration-none"
-                                    href="https://app.arenatwo.com/en" target="_blank">Arena Two DApp</a></div>
-                        </div>
-                    </div>
-                </li>
-                <li class="list-group-item">
-                    <div class="row">
-                        <div class="col-auto">
-                            <img class="img-responsive rounded m-2" style="background-color: #ffffff;"
-                                src="https://vibeground.com/_next/static/media/v.ce6c5ef5.svg" width="64" height="64" />
-                        </div>
-                        <div class="col-auto">
-                            <div class="small" style="color: #b7b6bb">03/2024 - 07/2025</div>
-                            <div class="large font-weight-bold font-italic mt-2" style="color: #FFFFFF;">Full Stack
-                                Developer</div>
-                            <div class="large mt-2" style="color: #FFFFFF;"><a class="text-decoration-none"
-                                    href="https://vibeground.com" target="_blank">Vibeground</a></div>
-                            <!-- <div class="small" style="color: #b7b6bb">Hyderabad, Telangana, India</div> -->
-                        </div>
-                    </div>
-                </li>
-                <li class="list-group-item">
-                    <div class="row">
-                        <div class="col-auto">
-                            <img class="img-responsive rounded m-2" style="background-color: #ffffff;"
-                                src="images/pao_logo.jpeg" width="64" height="64" />
-                        </div>
-                        <div class="col-auto">
-                            <div class="small" style="color: #b7b6bb">06/2020 - 02/2024</div>
-                            <div class="large font-weight-bold font-italic mt-2" style="color: #FFFFFF;">Software
-                                Developer</div>
-                            <div class="large mt-2" style="color: #FFFFFF;"><a class="text-decoration-none"
-                                    href="https://www.thepaoapp.com" target="_blank">The Pao App</a></div>
-                            <!-- <div class="small" style="color: #b7b6bb">Mumbai, Maharashtra, India</div> -->
-                        </div>
-                    </div>
-                </li>
-                <li class="list-group-item">
-                    <div class="row">
-                        <div class="col-auto">
-                            <img class="img-responsive rounded m-2 pr-2 pl-2"
-                                style="background-color: #ffffff;object-fit: contain;"
-                                src="https://d3frdga3t4yih.cloudfront.net/lanet_team/lanetLogo.webp" width="64"
-                                height="64" />
-                        </div>
-                        <div class="col-auto">
-                            <div class="small" style="color: #b7b6bb">12/2019 - 06/2020</div>
-                            <div class="large font-weight-bold font-italic mt-2" style="color: #FFFFFF;">Software
-                                Developer</div>
-                            <div class="large mt-2" style="color: #FFFFFF;"><a class="text-decoration-none"
-                                    href="https://www.lanetteam.com" target="_blank">La Net Team Software Solution Pvt
-                                    Ltd</a></div>
-                            <div class="small" style="color: #b7b6bb">Udaipur, Rajasthan, India</div>
-                        </div>
-                    </div>
-                </li>
-                <li class="list-group-item">
-                    <div class="row">
-                        <div class="col-auto">
-                            <img class="img-responsive rounded m-2" style="background-color: #ffffff00;"
-                                src="images/Company/woodenstreet-logo.jpg" width="64" height="64" />
-                        </div>
-                        <div class="col-auto">
-                            <div class="small" style="color: #b7b6bb">12/2017 - 11/2019</div>
-                            <div class="large font-weight-bold font-italic mt-2" style="color: #FFFFFF;">iOS Developer
-                            </div>
-                            <div class="large mt-2" style="color: #FFFFFF;"><a class="text-decoration-none"
-                                    href="https://www.woodenstreet.com" target="_blank">Wooden Street</a></div>
-                            <div class="small" style="color: #b7b6bb">Udaipur, Rajasthan, India</div>
-                        </div>
-                    </div>
-                </li>
-                <li class="list-group-item">
-                    <div class="row">
-                        <div class="col-auto">
-                            <img class="img-responsive rounded m-2 pr-2 pl-2"
-                                style="background-color: #ffffff;object-fit: contain;"
-                                src="https://www.ebizzinfotech.com/images/Ebizz_Logo.png" width="64" height="64" />
-                        </div>
-                        <div class="col-auto">
-                            <div class="small" style="color: #b7b6bb">03/2016 - 11/2017</div>
-                            <div class="large font-weight-bold font-italic mt-2" style="color: #FFFFFF;">iOS Developer
-                            </div>
-                            <div class="large mt-2" style="color: #FFFFFF;"><a class="text-decoration-none"
-                                    href="https://www.ebizzinfotech.com" target="_blank">Ebizz Infotech</a></div>
-                            <div class="small" style="color: #b7b6bb">Surat, Gujarat, India</div>
-                        </div>
-                    </div>
-                </li>
-                <li class="list-group-item">
-                    <div class="row">
-                        <div class="col-auto">
-                            <img class="img-responsive rounded m-2 pr-2 pl-2"
-                                style="background-color: #ffffff;object-fit: contain;"
-                                src="https://www.stpl.com/images/logo.png" width="64" height="64" />
-                        </div>
-                        <div class="col-auto">
-                            <div class="small" style="color: #b7b6bb">07/2012 - 01/2016</div>
-                            <div class="large font-weight-bold font-italic mt-2" style="color: #FFFFFF;">Software
-                                Developer</div>
-                            <div class="large mt-2" style="color: #FFFFFF;"><a class="text-decoration-none"
-                                    href="https://www.stpl.com" target="_blank">Sahajanand Technologies Private Limited
-                                    (STPL)</a></div>
-                            <div class="small" style="color: #b7b6bb">Surat, Gujarat, India</div>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-        </div>
+        <!-- About Section -->
+        <section id="aboutMe" class="section-spacing">
+            <h2 class="section-title"><i class="fas fa-user-alt icon-gradient"></i> About Me</h2>
+            <div class="glass-panel text-center">
+                <p class="about-text">
+                    With a strong foundation in both front-end and back-end development, I am a skilled full-stack
+                    developer proficient in crafting innovative and user-centric applications. My expertise spans across
+                    various platforms and technologies, enabling me to deliver robust and scalable solutions.
+                </p>
+            </div>
+        </section>
 
-    </section>
-    <!-- Experience Section END -->
+        <!-- Experience Section -->
+        <section id="experience" class="section-spacing">
+            <h2 class="section-title"><i class="fas fa-briefcase icon-gradient"></i> Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item glass-panel">
+                    <img src="images/Websites/ArenaTwo.png" alt="Arena Two"
+                        class="company-logo bg-white object-contain">
+                    <div class="timeline-content">
+                        <span class="timeline-date">08/2025 - 02/2026</span>
+                        <h3 class="timeline-role">Full Stack Developer</h3>
+                        <div class="timeline-company"><a href="https://arenatwo.com" target="_blank">Arena Two</a></div>
+                        <div class="timeline-company"><a href="https://app.arenatwo.com/en" target="_blank">Arena Two
+                                DApp</a></div>
+                    </div>
+                </div>
 
-    <!-- Skills Section START -->
-    <section id="skills">
-        <div class="h1 text-center" data-aos="zoom-in-up"><i class="fas fa-star"></i>My <b>Skills</b></div>
-        <div class="container-fluid d-block mx-auto text-center" style="width:fit-content;">
-            <div class="h4 mt-4">Languages:</div>
-            <div class="row justify-content-center align-items-center" data-aos="fade-down" data-aos-easing="linear"
-                data-aos-duration="500">
-                <div class="skill" style="color: #b2b200">
-                    <div class="fab fa-js-square  p-0 m-1" style="font-size: 30px;"></div>
-                    <div class="font-weight-bold">JavaScript</div>
+                <div class="timeline-item glass-panel">
+                    <img src="https://vibeground.com/_next/static/media/v.ce6c5ef5.svg" alt="Vibeground"
+                        class="company-logo bg-white">
+                    <div class="timeline-content">
+                        <span class="timeline-date">03/2024 - 07/2025</span>
+                        <h3 class="timeline-role">Full Stack Developer</h3>
+                        <div class="timeline-company"><a href="https://vibeground.com" target="_blank">Vibeground</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="skill" style="color: #b2b200">
-                    <div class="fab fa-js-square  p-0 m-1" style="font-size: 30px;"></div>
-                    <div class="font-weight-bold">TypeScript</div>
+
+                <div class="timeline-item glass-panel">
+                    <img src="images/pao_logo.jpeg" alt="The Pao App" class="company-logo bg-white">
+                    <div class="timeline-content">
+                        <span class="timeline-date">06/2020 - 02/2024</span>
+                        <h3 class="timeline-role">Software Developer</h3>
+                        <div class="timeline-company"><a href="https://www.thepaoapp.com" target="_blank">The Pao
+                                App</a></div>
+                    </div>
                 </div>
-                <div class="skill" style="color: #b2b200">
-                    <div class="fab fa-js-square  p-0 m-1" style="font-size: 30px;"></div>
-                    <div class="font-weight-bold">Swift</div>
+
+                <div class="timeline-item glass-panel">
+                    <img src="https://d3frdga3t4yih.cloudfront.net/lanet_team/lanetLogo.webp" alt="La Net Team"
+                        class="company-logo bg-white object-contain p-1">
+                    <div class="timeline-content">
+                        <span class="timeline-date">12/2019 - 06/2020</span>
+                        <h3 class="timeline-role">Software Developer</h3>
+                        <div class="timeline-company"><a href="https://www.lanetteam.com" target="_blank">La Net Team
+                                Software Solution Pvt Ltd</a></div>
+                        <div class="timeline-location">Udaipur, Rajasthan, India</div>
+                    </div>
                 </div>
-                <div class="skill" style="color: #e43e00">
-                    <div class="fab fa-java  p-0 m-1" style="font-size: 30px"></div>
-                    <div class="font-weight-bold">Java</div>
+
+                <div class="timeline-item glass-panel">
+                    <img src="images/Company/woodenstreet-logo.jpg" alt="Wooden Street"
+                        class="company-logo bg-transparent">
+                    <div class="timeline-content">
+                        <span class="timeline-date">12/2017 - 11/2019</span>
+                        <h3 class="timeline-role">iOS Developer</h3>
+                        <div class="timeline-company"><a href="https://www.woodenstreet.com" target="_blank">Wooden
+                                Street</a></div>
+                        <div class="timeline-location">Udaipur, Rajasthan, India</div>
+                    </div>
                 </div>
-                <div class="skill" style="color: #2099df">
-                    <div class="fas fa-code p-0 m-1" style="font-size: 30px"></div>
-                    <div class="font-weight-bold">Dart</div>
+
+                <div class="timeline-item glass-panel">
+                    <img src="https://www.ebizzinfotech.com/images/Ebizz_Logo.png" alt="Ebizz Infotech"
+                        class="company-logo bg-white object-contain p-1">
+                    <div class="timeline-content">
+                        <span class="timeline-date">03/2016 - 11/2017</span>
+                        <h3 class="timeline-role">iOS Developer</h3>
+                        <div class="timeline-company"><a href="https://www.ebizzinfotech.com" target="_blank">Ebizz
+                                Infotech</a></div>
+                        <div class="timeline-location">Surat, Gujarat, India</div>
+                    </div>
                 </div>
-                <div class="skill" style="color: #cf5b1e">
-                    <div class="fab fa-html5  p-0 m-1" style="font-size: 30px"></div>
-                    <div class="font-weight-bold">HTML</div>
-                </div>
-                <div class="skill" style="color: #559cc4">
-                    <div class="fab fa-css3  p-0 m-1" style="font-size: 30px"></div>
-                    <div class="font-weight-bold">CSS</div>
+
+                <div class="timeline-item glass-panel">
+                    <img src="https://www.stpl.com/images/logo.png" alt="STPL"
+                        class="company-logo bg-white object-contain p-1">
+                    <div class="timeline-content">
+                        <span class="timeline-date">07/2012 - 01/2016</span>
+                        <h3 class="timeline-role">Software Developer</h3>
+                        <div class="timeline-company"><a href="https://www.stpl.com" target="_blank">Sahajanand
+                                Technologies Private Limited (STPL)</a></div>
+                        <div class="timeline-location">Surat, Gujarat, India</div>
+                    </div>
                 </div>
             </div>
+        </section>
 
-            <div class="h4 mt-4">Technologies/Frameworks:</div>
-            <div class="row justify-content-center align-items-center" data-aos="fade-down" data-aos-easing="linear"
-                data-aos-duration="500">
-                <div class="skill" style="color: #ffffff">
-                    <div class="fab fa-apple p-0 m-1" style="font-size: 30px"></div>
-                    <div class="font-weight-bold">Apple Core</div>
+        <!-- Skills Section -->
+        <section id="skills" class="section-spacing container">
+            <h2 class="section-title"><i class="fas fa-star icon-gradient"></i> Skills</h2>
+
+            <div class="skills-wrapper">
+                <div class="skills-category glass-panel">
+                    <h3 class="category-title">Languages</h3>
+                    <div class="skills-grid">
+                        <span class="skill-chip"><i class="fab fa-js-square" style="color: #f7df1e;"></i>
+                            JavaScript</span>
+                        <span class="skill-chip"><img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
+                                width="18" height="18" alt="TypeScript" style="border-radius: 2px;">
+                            TypeScript</span>
+                        <span class="skill-chip"><img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swift/swift-original.svg"
+                                width="18" height="18" alt="Swift"> Swift</span>
+                        <span class="skill-chip"><i class="fab fa-java" style="color: #e43e00;"></i> Java</span>
+                        <span class="skill-chip"><i class="fas fa-code" style="color: #0175c2;"></i> Dart</span>
+                        <span class="skill-chip"><i class="fab fa-html5" style="color: #e34f26;"></i> HTML</span>
+                        <span class="skill-chip"><i class="fab fa-css3" style="color: #1572b6;"></i> CSS</span>
+                    </div>
                 </div>
-                <div class="skill" style="color: #29bf0f">
-                    <div class="fab fa-android p-0 m-1" style="font-size: 30px"></div>
-                    <div class="font-weight-bold">Android</div>
+
+                <div class="skills-category glass-panel">
+                    <h3 class="category-title">Technologies</h3>
+                    <div class="skills-grid">
+                        <span class="skill-chip"><i class="fab fa-apple" style="color: #fff;"></i> Apple Core</span>
+                        <span class="skill-chip"><i class="fab fa-android" style="color: #3ddc84;"></i> Android</span>
+                        <span class="skill-chip"><i class="fas fa-mobile" style="color: #42a5f5;"></i> Flutter</span>
+                        <span class="skill-chip"><i class="fab fa-node" style="color: #68a063;"></i> Node.js</span>
+                        <span class="skill-chip"><img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg"
+                                width="18" height="18" alt="NextJs" style="background: white; border-radius: 50%;">
+                            NextJs</span>
+                    </div>
                 </div>
-                <div class="skill" style="color: #0f96bf">
-                    <div class="fas fa-mobile p-0 m-1" style="font-size: 30px"></div>
-                    <div class="font-weight-bold">Flutter</div>
+
+                <div class="skills-category glass-panel">
+                    <h3 class="category-title">Databases</h3>
+                    <div class="skills-grid">
+                        <span class="skill-chip"><i class="fas fa-database" style="color: #00758f;"></i> SQL</span>
+                        <span class="skill-chip"><i class="fas fa-database" style="color: #47a248;"></i> MongoDB</span>
+                        <span class="skill-chip"><i class="fas fa-fire" style="color: #ffca28;"></i> Firebase</span>
+                        <span class="skill-chip"><img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg"
+                                width="18" height="18" alt="PostgreSQL"> PostgreSQL</span>
+                    </div>
                 </div>
-                <div class="skill" style="color: #00ff22">
-                    <div class="fab fa-node p-0 m-1" style="font-size: 30px"></div>
-                    <div class="font-weight-bold">Node.js</div>
-                </div>
-                <div class="skill" style="color: #32e0c4">
-                    <div class="fab fa-python p-0 m-1" style="font-size: 30px"></div>
-                    <div class="font-weight-bold">NextJs</div>
+
+                <div class="skills-category glass-panel">
+                    <h3 class="category-title">Tools</h3>
+                    <div class="skills-grid">
+                        <span class="skill-chip"><i class="fab fa-git-square" style="color: #f34f29;"></i> Git</span>
+                        <span class="skill-chip"><i class="fas fa-paper-plane" style="color: #ff6c37;"></i>
+                            Postman</span>
+                        <span class="skill-chip"><i class="fab fa-figma" style="color: #F24E1E;"></i> Figma</span>
+                    </div>
                 </div>
             </div>
+        </section>
 
-            <div class="h4 mt-4">Databases:</div>
-            <div class="row justify-content-center align-items-center" data-aos="fade-down" data-aos-easing="linear"
-                data-aos-duration="500">
-                <div class="skill" style="color: #6685e4">
-                    <div class="fas fa-database  p-0 m-1" style="font-size: 30px"></div>
-                    <div class="font-weight-bold">SQL</div>
-                </div>
-                <div class="skill" style="color: #046e16">
-                    <div class="fas fa-database  p-0 m-1" style="font-size: 30px"></div>
-                    <div class="font-weight-bold">MongoDB</div>
-                </div>
-                <div class="skill" style="color: #FFA000">
-                    <div class="fas fa-fire p-0 m-1" style="font-size: 30px"></div>
-                    <div class="font-weight-bold">Firebase</div>
-                </div>
-                <div class="skill" style="color: #FFA000">
-                    <div class="fas fa-fire p-0 m-1" style="font-size: 30px"></div>
-                    <div class="font-weight-bold">PostgreSQL</div>
-                </div>
-            </div>
+        <!-- My Work Section -->
+        <section id="myWork" class="section-spacing">
+            <h2 class="section-title"><i class="fas fa-laptop-code icon-gradient"></i> Work</h2>
 
-            <div class="h4 mt-4">Tools:</div>
-            <div class="row justify-content-center align-items-center" data-aos="fade-down" data-aos-easing="linear"
-                data-aos-duration="500">
-                <div class="skill" style="color: #ffffff">
-                    <div class="fab fa-git-square  p-0 m-1" style="font-size: 30px"></div>
-                    <div class="font-weight-bold">Git</div>
-                </div>
-                <div class="skill" style="color: #ffffff">
-                    <div class="fab fa-github-square  p-0 m-1" style="font-size: 30px"></div>
-                    <div class="font-weight-bold">GitHub</div>
-                </div>
-                <div class="skill" style="color: #ffffff">
-                    <div class="fab fa-github-square  p-0 m-1" style="font-size: 30px"></div>
-                    <div class="font-weight-bold">GitHub Actions</div>
-                </div>
-                <div class="skill" style="color: #FFA000">
-                    <div class="fas fa-fire p-0 m-1" style="font-size: 30px"></div>
-                    <div class="font-weight-bold">Firebase</div>
-                </div>
-                <div class="skill" style="color: #FFA000">
-                    <div class="fab fa-aws p-0 m-1" style="font-size: 30px"></div>
-                    <div class="font-weight-bold">AWS</div>
-                </div>
-            </div>
-
-
-        </div>
-    </section>
-    <!-- Skills Section END -->
-
-    <!-- My Work Section START -->
-    <section id="myWork">
-        <div class="h1 text-center" data-aos="zoom-in-up"><i class="fas fa-laptop-code"></i>My <b>Work</b></div>
-        <div data-aos="zoom-in-down">
-            <!-- Websites Section -->
-            <div class="h3 text-center mb-4 mt-2">Websites</div>
-            <div class="card-deck justify-content-center">
-                <div class="card" style="max-width: 350px;">
-                    <div class="d-flex justify-content-center align-items-center bg-dark" style="height: 200px;">
-                        <img class="" src="images/Websites/PaoMedia.webp" alt="Pao Media Company"
-                            style="max-height: 150px; max-width: 100%;">
+            <h3 class="work-category-title text-center">Websites</h3>
+            <div class="work-grid">
+                <div class="work-card glass-panel">
+                    <div class="work-img-container">
+                        <img src="images/Websites/PaoMedia.webp" alt="Pao Media Company">
                     </div>
-                    <div class="card-body">
-                        <h5 class="card-title font-weight-bold">Pao Media Company</h5>
-                        <p class="card-text">Highlights unique experiences and small, local businesses around the
-                            world.</p>
-                    </div>
-                    <div class="card-body">
-                        <a href="https://paomediacompany.com/" target="_blank" class="btn btn-outline-primary">Visit
-                            Site</a>
+                    <div class="work-info">
+                        <h4>Pao Media Company</h4>
+                        <p>Highlights unique experiences and small, local businesses around the world.</p>
+                        <a href="https://paomediacompany.com/" target="_blank" class="btn btn-outline">Visit Site</a>
                     </div>
                 </div>
 
-                <div class="card" style="max-width: 350px;">
-                    <div class="d-flex justify-content-center align-items-center bg-dark" style="height: 200px;">
-                        <img class="" src="images/Websites/ArenaTwo.png" alt="Arena Two"
-                            style="max-height: 150px; max-width: 100%;">
+                <div class="work-card glass-panel">
+                    <div class="work-img-container">
+                        <img src="images/Websites/ArenaTwo.png" alt="Arena Two">
                     </div>
-                    <div class="card-body">
-                        <h5 class="card-title font-weight-bold">Arena Two</h5>
-                        <p class="card-text">8 Teams. 8 Cities. $8M Prize. A new 6-a-side live football tournament.
-                        </p>
-                    </div>
-                    <div class="card-body">
-                        <a href="https://arenatwo.com/" target="_blank" class="btn btn-outline-primary">Visit
-                            Site</a>
+                    <div class="work-info">
+                        <h4>Arena Two</h4>
+                        <p>8 Teams. 8 Cities. $8M Prize. A new 6-a-side live football tournament.</p>
+                        <a href="https://arenatwo.com/" target="_blank" class="btn btn-outline">Visit Site</a>
                     </div>
                 </div>
 
-                <div class="card" style="max-width: 350px;">
-                    <div class="d-flex justify-content-center align-items-center bg-dark" style="height: 200px;">
-                        <img class="" src="images/Websites/AasinAtticus.png" alt="Aasin Atticus"
-                            style="max-height: 150px; max-width: 100%;">
+                <div class="work-card glass-panel">
+                    <div class="work-img-container">
+                        <img src="images/Websites/ArenaTwo.png" alt="Arena Two DApp">
                     </div>
-                    <div class="card-body">
-                        <h5 class="card-title font-weight-bold">Aasin Atticus</h5>
-                        <p class="card-text">Bring Your Brand’s Creative Vision To Life.</p>
+                    <div class="work-info">
+                        <h4>Arena Two DApp</h4>
+                        <p>Arena Two revolutionizes sports entertainment with real-time fan voting and interactive
+                            experiences.</p>
+                        <a href="https://app.arenatwo.com/en" target="_blank" class="btn btn-outline">Visit Site</a>
                     </div>
-                    <div class="card-body">
-                        <a href="https://aasinatticus.com/" target="_blank" class="btn btn-outline-primary">Visit
-                            Site</a>
+                </div>
+
+                <div class="work-card glass-panel">
+                    <div class="work-img-container">
+                        <img src="images/Websites/AasinAtticus.png" alt="Aasin Atticus">
+                    </div>
+                    <div class="work-info">
+                        <h4>Aasin Atticus</h4>
+                        <p>Bring Your Brand’s Creative Vision To Life.</p>
+                        <a href="https://aasinatticus.com/" target="_blank" class="btn btn-outline">Visit Site</a>
+                    </div>
+                </div>
+
+                <div class="work-card glass-panel">
+                    <div class="work-img-container">
+                        <img src="https://vg.bio/sloganed.png" alt="vg.bio">
+                    </div>
+                    <div class="work-info">
+                        <h4>vg.bio</h4>
+                        <p>Create a secure, compliant link-in-bio that prevents shadow banning. Fully Instagram, Facebook, and TikTok friendly.</p>
+                        <a href="https://vg.bio/en" target="_blank" class="btn btn-outline">Visit Site</a>
                     </div>
                 </div>
             </div>
 
-            <!-- Apps Section -->
-            <div class="h3 text-center mb-4 mt-5">Apps</div>
-            <div class="card-deck">
-                <div class="card">
-                    <img class="card-img-top" src="images/Apps/PaoApp.jpg" alt="The Pao App">
-                    <div class="card-body">
-                        <h5 class="card-title font-weight-bold">The Pao App</h5>
-                        <p class="card-text">Get up and go. Discover unique spots and hidden gems around you.</p>
+            <h3 class="work-category-title text-center mt-5">Apps</h3>
+            <div class="work-grid app-grid">
+                <div class="work-card glass-panel">
+                    <div class="app-img-container">
+                        <img src="images/Apps/PaoApp.jpg" alt="The Pao App">
                     </div>
-                    <div class="card-body">
+                    <div class="work-info">
+                        <h4>The Pao App</h4>
+                        <p>Get up and go. Discover unique spots and hidden gems around you.</p>
                         <a href="https://apps.apple.com/us/app/the-pao-app/id1398395194" target="_blank"
-                            class="btn btn-outline-primary">View App</a>
+                            class="btn btn-outline">View App</a>
                     </div>
                 </div>
 
-                <div class="card">
-                    <img class="card-img-top" src="images/Apps/WoodenStreet.jpg" alt="Wooden Street">
-                    <div class="card-body">
-                        <h5 class="card-title font-weight-bold">Wooden Street</h5>
-                        <p class="card-text">Furniture... bonded with love. India's finest custom furniture store.
-                        </p>
+                <div class="work-card glass-panel">
+                    <div class="app-img-container">
+                        <img src="images/Apps/WoodenStreet.jpg" alt="Wooden Street">
                     </div>
-                    <div class="card-body">
+                    <div class="work-info">
+                        <h4>Wooden Street</h4>
+                        <p>Furniture... bonded with love. India's finest custom furniture store.</p>
                         <a href="https://itunes.apple.com/in/app/wooden-street/id1162068644?mt=8" target="_blank"
-                            class="btn btn-outline-primary">View App</a>
+                            class="btn btn-outline">View App</a>
                     </div>
                 </div>
 
-                <div class="card">
-                    <img class="card-img-top" src="images/Apps/MySIPonline.jpg" alt="MySIPonline Mutual Fund App">
-                    <div class="card-body">
-                        <h5 class="card-title font-weight-bold">MySIPonline</h5>
-                        <p class="card-text">Invest in Best Mutual Funds. Simplify your investment journey.</p>
+                <div class="work-card glass-panel">
+                    <div class="app-img-container">
+                        <img src="images/Apps/MySIPonline.jpg" alt="MySIPonline">
                     </div>
-                    <div class="card-body">
+                    <div class="work-info">
+                        <h4>MySIPonline</h4>
+                        <p>Invest in Best Mutual Funds. Simplify your investment journey.</p>
                         <a href="https://itunes.apple.com/in/app/mysiponline-mutual-fund-app/id1246082058?mt=8"
-                            target="_blank" class="btn btn-outline-primary">View App</a>
+                            target="_blank" class="btn btn-outline">View App</a>
                     </div>
                 </div>
-            </div>
-            <div class="card-deck mt-4">
-                <div class="card">
-                    <img class="card-img-top" src="images/Apps/RishiPrasad.jpg" alt="Rishi Prasad Gyan Pratiyogita">
-                    <div class="card-body">
-                        <h5 class="card-title font-weight-bold">Rishi Prasad Gyan Pratiyogita</h5>
-                        <p class="card-text">Knowledge Competition App. Enhance your spiritual and cultural
-                            knowledge.</p>
+
+                <div class="work-card glass-panel">
+                    <div class="app-img-container">
+                        <img src="images/Apps/RishiPrasad.jpg" alt="Rishi Prasad">
                     </div>
-                    <div class="card-body">
+                    <div class="work-info">
+                        <h4>Rishi Prasad Gyan Pratiyogita</h4>
+                        <p>Knowledge Competition App. Enhance your spiritual and cultural knowledge.</p>
                         <a href="https://apps.apple.com/in/app/rishi-prasad-gyan-pratiyogita/id6447197555"
-                            target="_blank" class="btn btn-outline-primary">View App</a>
+                            target="_blank" class="btn btn-outline">View App</a>
                     </div>
                 </div>
 
-                <div class="card">
-                    <img class="card-img-top" src="images/Apps/GlobalAssignmentHelp.jpg" alt="Global Assignment Help">
-                    <div class="card-body">
-                        <h5 class="card-title font-weight-bold">Global Assignment Help</h5>
-                        <p class="card-text">Education & Assignment Help App. Expert assistance for your academic
-                            needs.</p>
+                <div class="work-card glass-panel">
+                    <div class="app-img-container">
+                        <img src="images/Apps/GlobalAssignmentHelp.jpg" alt="Global Assignment Help">
                     </div>
-                    <div class="card-body">
+                    <div class="work-info">
+                        <h4>Global Assignment Help</h4>
+                        <p>Education & Assignment Help App. Expert assistance for your academic needs.</p>
                         <a href="https://apps.apple.com/us/app/global-assignment-help/id1094249594" target="_blank"
-                            class="btn btn-outline-primary">View App</a>
+                            class="btn btn-outline">View App</a>
                     </div>
                 </div>
-                <!-- Spacer for alignment -->
-                <div class="card" style="visibility: hidden; border: none;">
+
+                <div class="work-card glass-panel">
+                    <div class="android-app-img-container">
+                        <img src="https://play-lh.googleusercontent.com/uYS8Kv8GDpQHUmrF8YRVUKYHz7zQQrTtV49VHfXVaPRAogde_OMmM_IMAt5-3NQ4wvGqVoORbWhvXoc5oM7-"
+                            alt="Sikho Kids">
+                    </div>
+                    <div class="work-info">
+                        <h4>Sikho Kids</h4>
+                        <p>Learn ABC, Hindi Varnmala, Numbers & more! Fun bilingual app for kids.</p>
+                        <a href="https://play.google.com/store/apps/details?id=com.sikhokids.app&hl=en" target="_blank"
+                            class="btn btn-outline">View App</a>
+                    </div>
+                </div>
+
+                <div class="work-card glass-panel">
+                    <div class="android-app-img-container">
+                        <img src="https://play-lh.googleusercontent.com/SWYiDanpBypPaSxPAL2on9_OdboMnZ4VIEtoMTDddkyj2isyRtzmrAA1VmyKBZdHFPO184kBYb87qcgxR6LUgYE"
+                            alt="My Breathing">
+                    </div>
+                    <div class="work-info">
+                        <h4>My Breathing</h4>
+                        <p>Relieve stress and improve focus with guided breathing and mindfulness.</p>
+                        <a href="https://play.google.com/store/apps/details?id=com.mybreathing.app&hl=en"
+                            target="_blank" class="btn btn-outline">View App</a>
+                    </div>
+                </div>
+
+                <div class="work-card glass-panel">
+                    <div class="android-app-img-container">
+                        <img src="https://play-lh.googleusercontent.com/lCtazS5PIddpJzWKQEsqb7Rb2K0Dp_x37RqgS6YRPz3uBBZWVu_KdXZNEBm-z_YJ7YA"
+                            alt="Mushroom Fall">
+                    </div>
+                    <div class="work-info">
+                        <h4>Mushroom Fall</h4>
+                        <p>Navigate to bottom of never ending maze as fast as you can!</p>
+                        <a href="https://play.google.com/store/apps/details?id=com.mushroomfall&hl=en" target="_blank"
+                            class="btn btn-outline">View App</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- My Work Section END -->
+        </section>
+    </main>
 
-    <!-- Footer -->
-    <footer class="m-3 mx-auto">
-        <div class="text-center text-white p-3" style="background-color: rgba(0,0,0,0.8)">Designed By : Ganpat S Lakhara
+    <footer class="footer">
+        <div class="container text-center">
+            <p>Designed By : Ganpat S Lakhara</p>
         </div>
     </footer>
 
@@ -508,18 +415,10 @@
     </script>
     <script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script>
     <noscript>
-        <div class="statcounter"><a title="Web Analytics Made Easy -
-    Statcounter" href="https://statcounter.com/" target="_blank"><img class="statcounter"
-                    src="https://c.statcounter.com/13066161/0/53801521/1/" alt="Web Analytics Made Easy - Statcounter"
-                    referrerPolicy="no-referrer-when-downgrade"></a></div>
+        <div class="statcounter"><a title="Web Analytics Made Easy - Statcounter" href="https://statcounter.com/"
+                target="_blank"><img class="statcounter" src="https://c.statcounter.com/13066161/0/53801521/1/"
+                    alt="Web Analytics Made Easy - Statcounter" referrerPolicy="no-referrer-when-downgrade"></a></div>
     </noscript>
-    <!-- End of Statcounter Code -->
-
-    <!-- Initialize Animation -->
-    <script>
-        AOS.init();
-    </script>
-    <script src="js/main.js"></script>
 </body>
 
 </html>
